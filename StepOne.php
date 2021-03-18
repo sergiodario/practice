@@ -13,8 +13,6 @@ class Designer
     public function setName(string $name): Designer
     {
         $this->name = $name;
-
-        return $this;
     }
 
     public function getPortfolioUrl(): string
