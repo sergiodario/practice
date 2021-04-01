@@ -12,7 +12,7 @@ $files = [
 
  * Devolverá:
 $files = [
-"Randy" => [“Input.txt”,["Output.txt"],
+"Randy" => [“Input.txt”, "Output.txt"],
 "Stan" => [“Code.py”]
 ];
 

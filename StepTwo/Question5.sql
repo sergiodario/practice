@@ -9,7 +9,7 @@ TABLE cats
 id INTEGER NOT NULL PRIMARY KEY
 name VARCHAR(50) NOT NULL
 
-Escriba un QUERY que seleccione los distintos nombres de ambas mascotas.
+Escriba un QUERY que seleccione los distintos nombres de manera única de ambas tablas de mascotas.
 */
 
 -- todo sql

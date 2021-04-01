@@ -16,4 +16,4 @@ class Problem
 }
 
 $names = Problem::unique_names(['Ava', 'Emma', 'Olivia'], ['Olivia', 'Sophia', 'Emma']);
-echo join(', ', $names); // should print Emma, Olivia, Ava, Sophia
+echo join(', ', $names); // should print // should print Ava, Emma, Olivia, Sophia

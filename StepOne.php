@@ -10,7 +10,7 @@ class Designer
         return $this->name;
     }
 
-    public function setName(string $name): Designer
+    public function setName(string $name)
     {
         $this->name = $name;
     }
@@ -20,7 +20,7 @@ class Designer
         return $this->portfolioUrl;
     }
 
-    public function setPortfolioUrl(string $portfolioUrl): void
+    public function setPortfolioUrl(string $portfolioUrl)
     {
         $this->portfolioUrl = $portfolioUrl;
     }
@@ -37,7 +37,7 @@ class Programmer
         return $this->name;
     }
 
-    public function setName(string $name): void
+    public function setName(string $name)
     {
         $this->name = $name;
     }
@@ -47,7 +47,7 @@ class Programmer
         return $this->githubUrl;
     }
 
-    public function setGithubUrl(string $githubUrl): void
+    public function setGithubUrl(string $githubUrl)
     {
         $this->githubUrl = $githubUrl;
     }
