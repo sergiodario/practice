@@ -58,11 +58,11 @@ class Programmer
 //... some code...
 $programmer = new Programmer();
 $programmer->setName('John Doe')
-    ->getGithubUrl('https://github.com/github');
+    ->setGithubUrl('https://github.com/github');
 
 //... some more code...
 $designer = new Designer();
-$designer->setName(['Jane Smith'])
+$designer->setName('Jane Smith')
     ->setPorfolio('https://www.behance.net/jane_smthith_90');
 
 
